@@ -1,0 +1,32 @@
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-section-container">
+      <div class="footer-section-column">
+        <div>
+          <a href="index.html">
+            <span class="footer-section {% if section == 'index' %}karla-bold {% else %}karla{% endif %}">{{es.footer.sections.homepage}}</span>
+          </a>
+          <a href="contacto.html">
+            <span class="footer-section {% if section == 'contacto' %}karla-bold{% else %}karla{% endif %}">{{es.footer.sections.contact}}</span>
+          </a>
+        </div>
+        <div>
+          <span class="footer-section">{{es.footer.sections.phone}}</span>
+          <a href="https://www.facebook.com/PromorCafe/" target="_blank">
+            <img class="footer-icon" src="{{es.footer.sections.fb}}">
+          </a>
+        </div>
+      </div>
+      <a href="https://goo.gl/maps/rqVHrnTr7nx" target="_blank">
+        <span class="footer-section karla">{{es.footer.sections.address}}</span>
+      </a>
+    </div>
+
+    <div class="footer-logo-container">
+      <a href="index.html">
+        <img class="footer-logo" src="{{es.footer.logo}}" alt="Logo of the footer">
+      </a>
+      <span class="footer-copyright karla">{{es.footer.copyright}}</span>
+    </div>
+  </div>
+</footer>
