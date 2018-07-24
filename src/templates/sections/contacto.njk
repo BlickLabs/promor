@@ -1,0 +1,45 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Contacto{% endblock %}
+
+{% set view_name = "contact" %}
+
+{% block content %}
+<section class="contact">
+  <section class="contact-cover">
+    <div class="contact-cover-card">
+      <a href="mailto:contacto@promor.mx">
+        <img class="contact-cover-icon" src="{{es.contact.cover.envelopeIcon}}">
+        <span class="contact-cover-email karla">{{es.contact.cover.email}}</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="contact-form">
+    <div class="contact-form-info">
+      <h1 class="contact-form-title bigcaslon-medium">{{es.contact.form.title}}</h1>
+      <span class="contact-form-desc karla">{{es.contact.form.desc}}</span>
+    </div>
+    <div class="contact-form-container">
+      <div class="contact-form-map-container">
+        <iframe src="{{es.contact.form.mapIframe}}" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <form class="contact-form-tag" name="promor-contact-form" method="post" action="http://integrations.blick.mx/promor/contact/">
+        <div class="contact-form-input-container">
+          <input class="contact-form-input karla" type="text" name="name" placeholder="Nombre" required>
+        </div>
+        <div class="contact-form-input-container">
+          <input class="contact-form-input karla" type="tel" name="phone" placeholder="Teléfono">
+        </div>
+        <div class="contact-form-input-container">
+          <input class="contact-form-input karla" type="email" name="email" placeholder="Correo electrónico" required>
+        </div>
+        <textarea class="contact-form-textarea karla" type="text" name="message" placeholder="Mensaje"></textarea>
+        <div>
+          <button class="promor-btn karla-bold" type="submit">{{es.contact.form.btn}}</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</section>
+{% endblock %}

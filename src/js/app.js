@@ -1,24 +1,22 @@
-$('form[name="contact-form"]').validate({
+$('form[name="promor-contact-form"]').validate({
   name: 'required',
   email: 'required',
-  phone: 'required',
   messages: {
    name: "Por favor, introduce tu Nombre.",
-   email: "Por favor, introduce un Correo Electrónico.",
-   phone: "Por favor, introduce tu Teléfono."
+   email: "Por favor, introduce un Correo Electrónico."
   },
   submitHandler: function(form) {
-   var data = $('form[name="contact-form"]').serialize();
+   var data = $('form[name="promor-contact-form"]').serialize();
    console.log(data);
    $.ajax({
-     url: 'http://integrations.blick.mx/',
+     url: 'http://integrations.blick.mx/promor/contact/',
      method: 'POST',
      data: data
    }).done(function(data) {
      if (parseInt(data) === 1) {
        alertify.logPosition("bottom right");
        alertify.success("Correo enviado, gracias por contactarte con nosotros.");
-       $('form[name="contact-form"]')[0].reset();
+       $('form[name="promor-contact-form"]')[0].reset();
      }
    });
   },
