@@ -174,6 +174,18 @@
           }
         ]
       }
+    },
+    "contact": {
+      "cover": {
+        "envelopeIcon": "/img/icons/icon-envelope.png",
+        "email": "contacto@promor.mx"
+      },
+      "form": {
+        "title": "Contáctanos",
+        "desc": "Deja tus datos y nos pondremos en contacto",
+        "mapIframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3761.772348195375!2d-96.9593427!3d19.4653796!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db2d1bdef81f8f%3A0x238a86412a622c85!2sPromor!5e0!3m2!1sen!2smx!4v1532467066628",
+        "btn": "enviar"
+      }
     }
   }
 }
