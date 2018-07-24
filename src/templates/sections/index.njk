@@ -1,11 +1,98 @@
 {% extends "partials/base.njk" %}
 
-{% block title %}This{% endblock %}
+{% block title %}Inicio{% endblock %}
 
 {% set view_name = "homepage" %}
 
 {% block content %}
 <section class="home">
-  
+  <section class="home-cover">
+    <h1 class="home-cover-title bigcaslon-medium">{{es.home.cover.title}}</h1>
+    <h2 class="home-cover-subtitle karla">{{es.home.cover.subtitle}}</h2>
+    <a href="contacto.html">
+      <button class="promor-btn karla-bold">{{es.home.cover.btn}}</button>
+    </a>
+    <img class="home-cover-arrow" src="{{es.home.cover.arrow}}">
+  </section>
+
+  <section class="home-products">
+    <div class="home-products-bg"></div>
+    <div class="home-products-star">
+      <div class="home-products-star-desc">
+        <h2 class="home-products-title bigcaslon-medium">{{es.home.products.title}}</h2>
+        <h3 class="home-products-subtitle karla">{{es.home.products.subtitle}}</h3>
+      </div>
+      <div class="home-products-carousel owl-carousel">
+        {% for product in es.home.products.carousel %}
+        <div class="home-products-card {{product.card}}">
+          <div class="home-products-card-hover">
+            <div class="home-products-card-separator"></div>
+            <span class="home-products-card-title karla-bold">{{product.title}}</span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="home-products-btn-container">
+        <a href="contacto.html">
+          <button class="promor-btn karla-bold">{{es.home.products.btn}}</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-machinery">
+    <div>
+      <h2 class="home-machinery-title bigcaslon-medium">{{es.home.machinery.title}}</h2>
+      <h3 class="home-machinery-subtitle karla">{{es.home.machinery.subtitle}}</h3>
+      <a href="contacto.html">
+        <button class="promor-btn karla-bold">{{es.home.machinery.btn}}</button>
+      </a>
+    </div>
+    <div>
+      <div class="home-machinery-card-container">
+        {% for stage in es.home.machinery.card %}
+        <div class="home-machinery-card">
+          <img class="home-machinery-card-icon {{stage.stageIconClass}}" src="{{stage.stageIcon}}">
+          <h4 class="home-machinery-card-stage karla">{{stage.stage}}</h4>
+          <span class="home-machinery-card-desc karla-bold">{{stage.stageTitle}}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="home-clients">
+    <h2 class="home-clients-title bigcaslon-medium">{{es.home.clients.title}}</h2>
+    <div class="home-clients-carousel owl-carousel">
+      {% for client in es.home.clients.logos %}
+      <div>
+        <img class="{{client.logoClass}}" src="{{client.logo}}">
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="home-cup">
+    <div class="home-cup-bg">
+      <div class="home-cup-info">
+        <h2 class="home-cup-title bigcaslon-medium">{{es.home.cup.title}}</h2>
+        <p class="home-cup-desc karla">{{es.home.cup.descPart1}} <span class="karla-bold">{{es.home.cup.descPart2}}</span> {{es.home.cup.descPart3}} <span class="karla-bold">{{es.home.cup.descPart4}}</span></p>
+        <a href="contacto.html">
+          <button class="promor-btn karla-bold">{{es.home.cup.btn}}</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-allies">
+    <h2 class="home-allies-title bigcaslon-medium">{{es.home.allies.title}}</h2>
+    <div class="home-allies-card-container">
+      {% for card in es.home.allies.logos %}
+      <div class="home-allies-card">
+        <img class="{{card.logoClass}}" src="{{card.logo}}">
+      </div>
+      {% endfor %}
+    </div>
+  </section>
 </section>
 {% endblock %}

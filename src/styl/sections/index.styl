@@ -1,0 +1,566 @@
+.home
+  &-cover
+    background-image url("../img/backgrounds/home-cover.png")
+    background-position center
+    background-repeat no-repeat
+    background-size cover
+    display flex
+    flex-direction column
+    height 610px
+    justify-content flex-end
+    padding 0 0 0 112px
+
+    &-title
+      color $whitE
+      font-size $fs62
+      line-height 63px
+      max-width 298px
+
+    &-subtitle
+      color $whitE
+      font-size $fs16
+      letter-spacing 0.2px
+      line-height 28px
+      margin 21px 0 25px 0
+      max-width 342px
+
+    & a
+      width 113.8px
+
+    &-arrow
+      height 20px
+      margin 99px 0 75px 0
+      width 13px
+
+  &-products
+    display flex
+    flex-direction row
+    margin-top -95px
+
+    &-bg
+      background-image url("../img/backgrounds/home-bg-gray-1.jpg")
+      background-position center
+      background-repeat no-repeat
+      background-size cover
+      height 900px
+      min-width 383px
+      z-index -1
+
+    &-title
+      color $blackT1
+      font-size $fs40
+      letter-spacing 0.9px
+      line-height 63px
+
+    &-subtitle
+      color $grayT1
+      font-size $fs16
+      letter-spacing 0.2px
+      line-height 30px
+
+    &-star
+      background-color $whitE
+
+      &-desc
+        padding 110px 0 60px 82px
+
+    &-carousel
+      margin-left -105px
+      position relative
+      width 1041px
+
+      & .owl-stage-outer
+        padding 0 60px
+
+      & .owl-stage
+        height 426px
+        // margin-left -36px
+
+      & .owl-item
+        margin-top 16px
+        transition 0.3s
+
+      & .owl-item:hover
+        box-shadow 0 34px 31px 0 rgba(0, 0, 0, 0.5)
+        transform scale(1.1)
+        transition 0.3s
+
+      & .owl-nav
+        display flex
+        justify-content space-between
+        left -80px
+        position absolute
+        top 16px
+        width 86px
+
+      &-navigation
+        height 37px
+        width 37px
+
+    &-card
+      background-position center
+      background-repeat no-repeat
+      background-size cover
+      height 321px
+      position relative
+      width 267px
+
+      &-hover
+        align-items center
+        bottom 0
+        display flex
+        flex-direction column
+        justify-content center
+        left 0
+        opacity 0
+        position absolute
+        right 0
+        top 0
+        transition 0.3s
+
+        &:hover
+          background-color $greenT3
+          opacity 0.9
+          transition 0.3s
+
+      &-separator
+        background-color $greenT1
+        height 2px
+        margin-bottom 14px
+        width 47px
+
+      &-title
+        color $whitE
+        font-size $fs14
+        letter-spacing 0.9px
+        line-height 18px
+        max-width 148px
+        text-align center
+        text-transform uppercase
+
+    &-btn
+      &-container
+        display inline-block
+        margin 0 0 0 82px
+
+        & a button
+          color $blackT1
+
+  &-machinery
+    align-items center
+    background-image url("../img/backgrounds/home-machinery-bg.jpg")
+    background-position center
+    background-repeat no-repeat
+    background-size cover
+    box-shadow 0 34px 40px 0 rgba(0, 0, 0, 0.5)
+    display flex
+    flex-direction row
+    height 321px
+    justify-content space-between
+    margin -65px auto 120px auto
+    padding 0 99px
+    position relative
+    width 874px
+    z-index 1
+
+    &-title
+      color $whitE
+      font-size $fs40
+      letter-spacing 0.9px
+      line-height 63px
+
+    &-subtitle
+      color $whitE
+      font-size $fs16
+      letter-spacing 0.2px
+      line-height 30px
+      margin 15px 0 20px 0
+      max-width 260px
+
+    &-card
+      background-color $whitE
+      display flex
+      flex-direction column
+      height 103px
+      justify-content flex-end
+      padding 18px
+      position relative
+      width 157px
+
+      &:nth-child(-n + 2)
+        margin-bottom 13px
+
+      &-container
+        display flex
+        flex-wrap wrap
+        justify-content space-between
+        width 327px
+
+      &-icon
+        position absolute
+        right 14px
+        top 14px
+
+      &-stage
+        color $grayT2
+        font-size $fs11
+        line-height 19px
+
+      &-desc
+        color $blackT1
+        display block
+        font-size $fs16
+        line-height 19px
+        margin-top 5px
+        max-width 83px
+
+  &-clients
+    background-image url("../img/backgrounds/home-clients-bg.jpg")
+    background-position center
+    background-repeat no-repeat
+    background-size cover
+    height 450px
+    padding 70px 0
+
+    &-title
+      color $whitE
+      font-size $fs30
+      letter-spacing 1.1px
+      line-height 51px
+      text-align center
+
+    &-carousel
+      margin 70px auto 0 auto
+      width 652px
+
+      & .owl-item
+        display flex
+        justify-content center
+
+      & .owl-nav
+        display flex
+        height 37px
+        justify-content space-between
+        left 0
+        margin 0 auto
+        position absolute
+        right 0
+        top 100px
+        width 86px
+
+      &-navigation
+        height 37px
+        width 37px
+
+  &-cup
+    background-image url("../img/backgrounds/home-bg-gray-2.jpg")
+    background-position center
+    background-repeat no-repeat
+    background-size cover
+    height 480px
+    position relative
+
+    &-bg
+      background-image url("../img/home/home-cup-of.png")
+      background-position center
+      background-repeat no-repeat
+      background-size cover
+      height 620px
+      left 0
+      padding 115px 0 0 0
+      position absolute
+      top -70px
+      width 714px
+
+      & a button
+        color $blackT1
+
+    &-info
+      margin 0 auto
+      width 330px
+
+    &-title
+      color $blackT1
+      font-size $fs40
+      letter-spacing 0.9px
+      line-height 46px
+      width 330px
+
+    &-desc
+      color $grayT1
+      font-size $fs19
+      letter-spacing 0.2px
+      line-height 30px
+      margin 25px 0 45px 0
+      width 300px
+
+  &-allies
+    background-image url("../img/backgrounds/home-allies-bg.jpg")
+    background-position center
+    background-repeat no-repeat
+    background-size cover
+    box-shadow 0 34px 40px 0 rgba(0, 0, 0, 0.5)
+    height 220px
+    margin -135px auto 125px auto
+    padding 55px 0 0 0
+    position relative
+    width 779px
+
+    &-title
+      color $whitE
+      font-size $fs30
+      letter-spacing 1.1px
+      text-align center
+
+    &-card
+      align-items center
+      background-image linear-gradient(122deg, #6f6f6f, #484747)
+      display flex
+      height 123px
+      justify-content center
+      width 196px
+
+      &-container
+        display flex
+        flex-direction row
+        margin 45px auto 0 auto
+        width 415px
+
+      &:first-child
+        margin-right 23px
+
+.coffee-toaster
+  background-image url("../img/home/home-tostadora-cafe.png")
+
+.coffee-grinder
+  background-image url("../img/home/home-molino-ek-43.jpg")
+
+.penagos-module
+  background-image url("../img/home/home-modulo-penagos.png")
+
+.mortar
+  background-image url("../img/home/morteadora-expendio.png")
+
+.stage-icon
+  &-1
+    height 18px
+    width 12px
+
+  &-2
+    height 19px
+    width 21px
+
+  &-3
+    height 18px
+    width 19px
+
+  &-4
+    height 16px
+    width 24px
+
+.cafe
+  &-olam
+    height 50px
+    width 120px !important
+
+  &-ecom
+    height 41px
+    width 113px !important
+
+  &-bolaoro
+    height 54px
+    width 78px !important
+
+  &-kassandra
+    height 49px
+    width 130px !important
+
+  &-california
+    height 56px
+    width 58px !important
+
+  &-custepec
+    height 77px
+    width 47px !important
+
+  &-tomari
+    height 41px
+    width 114px !important
+
+  &-donjusto
+    height 76px
+    width 120px !important
+
+  &-andrade
+    height 41px
+    width 120px !important
+
+  &-maya
+    height 64px
+    width 86px !important
+
+  &-nuevomx
+    height 74px
+    width 80px !important
+
+  &-postgraduados
+    height 85px
+    width 66px !important
+
+  &-donpepe
+    height 60px
+    width 89px !important
+
+  &-montegrande
+    height 41px
+    width 163px !important
+
+  &-biomaya
+    height 50px
+    width 104px !important
+
+.allies-logo
+  &-penagos
+    height 38px
+    width 124px
+
+  &-mahlkonig
+    height 47px
+    width 83px
+
+@media screen and (max-width 930px)
+  .home
+    &-products
+      &-bg
+        min-width 240px
+
+      &-star
+        &-desc
+          padding-left 40px
+
+      &-btn
+        &-container
+          margin-left 40px
+
+    &-machinery
+      padding 0 40px
+      width 90%
+
+    &-allies
+      width 90%
+
+@media screen and (max-width 760px)
+  .home
+    &-products
+      &-bg
+        min-width 100px
+      &-carousel
+        & .owl-nav
+          bottom -16px
+          left 134px
+          top initial
+
+      &-btn
+        &-container
+          margin-top 55px
+
+    &-machinery
+      flex-direction column
+      height auto
+      padding 40px 40px 50px 40px
+
+      &-card
+        &-container
+          margin-top 35px
+
+    &-clients
+      &-carousel
+        width 550px
+
+    &-cup
+      &-bg
+        background-position right
+        width 440px
+
+@media screen and (max-width 600px)
+  .home
+    &-cover
+      padding 0 30px
+
+      &-title
+        font-size $fs40
+        line-height 45px
+
+    &-products
+      &-bg
+        height 840px
+        min-width 10px
+
+      &-star
+        &-desc
+          padding 40px 30px 30px 30px
+
+      &-title
+        font-size $fs25
+
+      &-subtitle
+        max-width 220px
+
+      &-carousel
+        margin-left -44px
+
+        & .owl-nav
+          left 160px
+
+    &-machinery
+      &-title
+        font-size $fs25
+
+      &-card
+        width 120px
+
+        &-container
+          width 253px
+
+    &-clients
+      padding 60px 50px
+
+      &-title
+        line-height 35px
+        font-size $fs25
+
+      &-carousel
+        width 163px
+
+    &-cup
+      &-bg
+        height 465px
+        padding-top 40px
+        width 100%
+
+      &-info
+        width 218px
+
+      &-title
+        font-size $fs25
+
+      &-desc
+        font-size $fs16
+        line-height 25px
+        width auto
+
+    &-allies
+      height auto
+      margin -240px auto 80px auto
+      padding-bottom 55px
+
+      &-title
+        font-size $fs25
+
+      &-card
+        &:first-child
+          margin 0 0 23px 0
+
+        &-container
+          flex-direction column
+          width 196px
