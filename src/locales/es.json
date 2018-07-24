@@ -26,6 +26,154 @@
         "fb": "/img/icons/icon-fb.png",
         "address": "2da de Altamirano, 49. Col. Centro CP. 91500. Coatepec, Ver. México."
       }
+    },
+    "home": {
+      "cover": {
+        "title": "Maquinaria para café",
+        "subtitle": "Más de 40 años dedicados al diseño y fabricación de maquinaria para el mejor café",
+        "btn": "contáctanos",
+        "arrow": "/img/icons/icon-arrow-down.png"
+      },
+      "products": {
+        "title": "Productos estrella",
+        "subtitle": "Buscamos día con día la mejor calidad en el mercado",
+        "carousel": [
+          {
+            "card": "coffee-toaster",
+            "title": "Tostador para café"
+          },
+          {
+            "card": "coffee-grinder",
+            "title": "Molino EK - 43"
+          },
+          {
+            "card": "penagos-module",
+            "title": "Módulo Penagos ECO - 400"
+          },
+          {
+            "card": "mortar",
+            "title": "Morteadora de Expendio"
+          }
+        ],
+        "btn": "cotiza"
+      },
+      "machinery": {
+        "title": "Maquinaria",
+        "subtitle": "Contamos con maquinaria para todas las etapas del café",
+        "btn": "cotiza",
+        "card": [
+          {
+            "stage": "Etapa 1",
+            "stageTitle": "Beneficio húmedo",
+            "stageIcon": "/img/icons/icon-drop.png",
+            "stageIconClass": "stage-icon-1"
+          },
+          {
+            "stage": "Etapa 2",
+            "stageTitle": "Beneficio seco",
+            "stageIcon": "/img/icons/icon-small-coffee-grains.png",
+            "stageIconClass": "stage-icon-2"
+          },
+          {
+            "stage": "Etapa 3",
+            "stageTitle": "Catación",
+            "stageIcon": "/img/icons/icon-cup.png",
+            "stageIconClass": "stage-icon-3"
+          },
+          {
+            "stage": "Etapa 4",
+            "stageTitle": "Tostaduría",
+            "stageIcon": "/img/icons/icon-big-coffee-grains.png",
+            "stageIconClass": "stage-icon-4"
+          }
+        ]
+      },
+      "clients": {
+        "title": "Algunos de nuestros clientes",
+        "logos": [
+          {
+            "logo": "img/logos/logo-olam.png",
+            "logoClass": "cafe-olam"
+          },
+          {
+            "logo": "img/logos/logo-ecom.png",
+            "logoClass": "cafe-ecom"
+          },
+          {
+            "logo": "img/logos/logo-cafe-bola-oro.png",
+            "logoClass": "cafe-bolaoro"
+          },
+          {
+            "logo": "img/logos/logo-finca-kassandra.png",
+            "logoClass": "cafe-kassandra"
+          },
+          {
+            "logo": "img/logos/logo-california.png",
+            "logoClass": "cafe-california"
+          },
+          {
+            "logo": "img/logos/logo-cafe-custepec.png",
+            "logoClass": "cafe-custepec"
+          },
+          {
+            "logo": "img/logos/logo-tomari.png",
+            "logoClass": "cafe-tomari"
+          },
+          {
+            "logo": "img/logos/logo-cafe-don-justo.png",
+            "logoClass": "cafe-donjusto"
+          },
+          {
+            "logo": "img/logos/logo-cafe-andrade.png",
+            "logoClass": "cafe-andrade"
+          },
+          {
+            "logo": "img/logos/logo-batsil-maya.png",
+            "logoClass": "cafe-maya"
+          },
+          {
+            "logo": "img/logos/logo-finca-nuevo-mx.png",
+            "logoClass": "cafe-nuevomx"
+          },
+          {
+            "logo": "img/logos/logo-colegio-postgraduados.png",
+            "logoClass": "cafe-postgraduados"
+          },
+          {
+            "logo": "img/logos/logo-don-pepe-coffee.png",
+            "logoClass": "cafe-donpepe"
+          },
+          {
+            "logo": "img/logos/logo-finca-monte-grande.png",
+            "logoClass": "cafe-montegrande"
+          },
+          {
+            "logo": "img/logos/logo-cafe-biomaya.png",
+            "logoClass": "cafe-biomaya"
+          }
+        ]
+      },
+      "cup": {
+        "title": "Taza de Excelencia",
+        "descPart1": "Los primeros lugares de la",
+        "descPart2": "Taza de Excelencia",
+        "descPart3": "los ocupan equipos",
+        "descPart4": "Promor",
+        "btn": "cotiza"
+      },
+      "allies": {
+        "title": "Aliados estratégicos",
+        "logos": [
+          {
+            "logo": "/img/logos/logo-penagos.png",
+            "logoClass": "allies-logo-penagos"
+          },
+          {
+            "logo": "/img/logos/logo-mahlkonig.png",
+            "logoClass": "allies-logo-mahlkonig"
+          }
+        ]
+      }
     }
   }
 }
