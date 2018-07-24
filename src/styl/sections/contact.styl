@@ -1,0 +1,139 @@
+.contact
+  margin-top 70px
+
+  &-cover
+    align-items center
+    background-image url("../img/backgrounds/contact-cover-bg.png")
+    background-position center
+    background-repeat no-repeat
+    background-size cover
+    display flex
+    height 257px
+    padding-left 113px
+
+    &-card
+      align-items center
+      background-image url("../img/backgrounds/contact-card-bg.png")
+      background-position center
+      background-repeat no-repeat
+      background-size cover
+      box-shadow 0 34px 40px 0 rgba(0, 0, 0, 0.5)
+      display flex
+      height 88px
+      justify-content center
+      width 342px
+
+      & a
+        align-items center
+        display flex
+
+    &-icon
+      height 12px
+      width 19px
+
+    &-email
+      color $whitE
+      font-size $fs16
+      letter-spacing 0.2px
+      margin-left 21px
+
+  &-form
+    align-items flex-end
+    display flex
+    flex-direction column
+    margin 65px auto 95px auto
+    width 698px
+
+    &-info
+      margin-bottom 45px
+      width 364px
+
+    &-title
+      color $blackT1
+      font-size $fs40
+      letter-spacing 0.9px
+
+    &-desc
+      color $grayT1
+      letter-spacing 0.2px
+      line-height 30px
+
+    &-container
+      display flex
+      flex-direction row
+
+    &-map
+      &-container
+        filter grayscale(100%)
+        height 250px
+        margin-right 76px
+        width 258px
+
+    &-tag
+      display flex
+      flex-direction column
+
+      & button
+        color $blackT1
+
+    &-input,
+    &-textarea
+      background-color $grayT3
+      border none
+      color blackT1
+      font-size $fs14
+      letter-spacing 0.2px
+      padding 15px
+      width 364px
+
+      &::placeholder
+        color $grayT4
+
+    &-input
+      height 35px
+      position relative
+
+      &-container
+        margin-bottom 24px
+        position relative
+
+    &-textarea
+      height 73px
+      margin-bottom 40px
+
+    & label.error
+      font-family 'Karla'
+      font-size $fs14
+      font-weight $regular
+      position absolute
+
+@media screen and (max-width 740px)
+  .contact
+    &-cover
+      height 210px
+      justify-content center
+      padding-left 0
+
+      &-card
+        width 270px
+
+    &-form
+      margin 30px auto 50px auto
+      width 280px
+
+      &-container
+        flex-direction column-reverse
+        width 280px
+
+      &-map
+        &-container
+          margin-top 40px
+          width 280px
+
+      &-info
+        margin-bottom 30px
+
+      &-info,
+      &-input,
+      &-textarea
+        width 280px
