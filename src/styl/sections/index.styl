@@ -438,6 +438,12 @@
     height 47px
     width 83px
 
+@media screen and (max-width 1270px)
+  .home
+    &-products
+      &-carousel
+        width 690px
+
 @media screen and (max-width 930px)
   .home
     &-products
@@ -499,6 +505,12 @@
         background-position right
         width 440px
 
+@media screen and (max-width 660px)
+  .home
+    &-products
+      &-carousel
+        width 360px
+
 @media screen and (max-width 600px)
   .home
     &-cover
@@ -524,24 +536,30 @@
       margin-top -45px
 
       &-bg
-        height 840px
+        height 760px
         min-width 10px
 
       &-star
         &-desc
-          padding 40px 30px 30px 30px
+          padding 40px 30px 10px 30px
 
       &-title
         font-size $fs25
 
       &-subtitle
+        line-height 20px
         max-width 220px
 
       &-carousel
         margin-left -44px
 
         & .owl-nav
+          bottom 20px
           left 160px
+
+      &-btn
+        &-container
+          margin-top 20px
 
     &-machinery
       background-image url("../img/backgrounds/home-machinery-mobile-bg.jpg")
