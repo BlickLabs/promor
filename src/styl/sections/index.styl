@@ -502,13 +502,27 @@
 @media screen and (max-width 600px)
   .home
     &-cover
+      align-items center
+      height 510px
       padding 0 30px
+
+      &-content
+        width 202px
+
+      &-title,
+      &-subtitle
+        max-width 100%
 
       &-title
         font-size $fs40
         line-height 45px
 
+      &-arrow
+        margin 50px 0 70px 0
+
     &-products
+      margin-top -45px
+
       &-bg
         height 840px
         min-width 10px
