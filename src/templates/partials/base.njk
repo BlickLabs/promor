@@ -2,13 +2,14 @@
 <html>
   <head>
     {% include 'seo/googleanalytics.njk' %}
+    {% include 'seo/hotjar.njk' %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     {% include 'seo/metatags.njk' %}
     {% block extra_css %}{% endblock %}
     <link rel="stylesheet" href="css/{{ projectFilesName }}.libs.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Promor - {% block title %}{% endblock %}</title>
+    <title>{% block title %}{% endblock %} | PROMOR</title>
     <link runat="server" rel="shortcut icon" href="/img/favicon/favicon-promor.png" type="image/x-icon"/>
     <link runat="server" rel="icon" href="/img/favicon/favicon-promor.png" type="image/ico"/>
     {% include 'seo/facebookpixel.njk' %}
