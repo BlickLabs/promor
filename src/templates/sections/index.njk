@@ -65,7 +65,7 @@
     <h2 class="home-clients-title bigcaslon-medium">{{es.home.clients.title}}</h2>
     <div class="home-clients-carousel owl-carousel">
       {% for client in es.home.clients.logos %}
-      <div>
+      <div class="home-clients-logo-container">
         <img class="{{client.logoClass}}" src="{{client.logo}}">
       </div>
       {% endfor %}
