@@ -36,11 +36,13 @@ window.addEventListener('scroll', function(e) {
 function showMenu() {
   document.querySelector('#menuContainer').style.width = '85%';
   document.querySelector('#hamburgerMenu').style.display = 'none';
+  document.body.style.overflow = 'hidden';
 }
 
 function hideMenu() {
   document.querySelector('#menuContainer').style.width = '0%';
   document.querySelector('#hamburgerMenu').style.display = 'inline';
+  document.body.style.overflow = 'auto';
 }
 
 window.addEventListener('click', function(e) {

@@ -1,5 +1,5 @@
 <nav class="nav {% if section  == 'contacto' %}nav-scroll{% endif %}">
-  <div>
+  <div class="nav-logo-container">
     <a href="index.html">
       <img class="nav-logo" src="{{es.nav.logo}}" alt="Nav logo">
     </a>
@@ -12,7 +12,7 @@
       </a>
     </div>
     {% endfor %}
-    <div>
+    <div class="nav-option-phone-container">
       <span class="nav-option-phone karla-bold">{{es.nav.phone}}</span>
     </div>
   </div>
@@ -45,7 +45,7 @@
           </a>
         </div>
         {% endfor %}
-        <div data-attribute="">
+        <div class="nav-option-phone-container" data-attribute="">
           <span class="nav-option-phone karla-bold" data-attribute="">{{es.nav.phone}}</span>
         </div>
     </div>

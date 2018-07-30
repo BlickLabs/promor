@@ -4,16 +4,16 @@
       <div class="footer-section-column">
         <div>
           <a href="index.html">
-            <span class="footer-section {% if section == 'index' %}karla-bold {% else %}karla{% endif %}">{{es.footer.sections.homepage}}</span>
+            <span class="footer-section {% if section == 'index' %}active {% else %}karla{% endif %}">{{es.footer.sections.homepage}}</span>
           </a>
           <a href="contacto.html">
-            <span class="footer-section {% if section == 'contacto' %}karla-bold{% else %}karla{% endif %}">{{es.footer.sections.contact}}</span>
+            <span class="footer-section {% if section == 'contacto' %}active{% else %}karla{% endif %}">{{es.footer.sections.contact}}</span>
           </a>
         </div>
         <div>
-          <span class="footer-section">{{es.footer.sections.phone}}</span>
+          <span class="footer-section" id="phone-nohover">{{es.footer.sections.phone}}</span>
           <a href="https://www.facebook.com/PromorCafe/" target="_blank">
-            <img class="footer-icon" src="{{es.footer.sections.fb}}">
+            <div class="footer-icon-fb"></div>
           </a>
         </div>
       </div>

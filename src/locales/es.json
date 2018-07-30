@@ -14,7 +14,7 @@
           "viewName": "contact"
         }
       ],
-      "phone": "22.88.16.00.44"
+      "phone": "+52 (228) 816 0044"
     },
     "footer": {
       "logo": "/img/logos/logo-promor-white.png",
@@ -22,16 +22,15 @@
       "sections": {
         "homepage": "Inicio",
         "contact": "Contacto",
-        "phone": "22.88.16.00.44",
-        "fb": "/img/icons/icon-fb.png",
+        "phone": "+52 (228) 816 0044",
         "address": "2da de Altamirano, 49. Col. Centro CP. 91500. Coatepec, Ver. México."
       }
     },
     "home": {
       "cover": {
         "title": "Maquinaria para café",
-        "subtitle": "Más de 40 años dedicados al diseño y fabricación de maquinaria para el mejor café",
-        "btn": "contáctanos",
+        "subtitle": "Más de 40 años dedicados al diseño y fabricación de maquinaria para el café.",
+        "btn": "contacto",
         "arrow": "/img/icons/icon-arrow-down.png"
       },
       "products": {

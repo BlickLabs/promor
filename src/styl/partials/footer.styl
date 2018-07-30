@@ -28,8 +28,9 @@
     line-height 20px
     width 165px
 
-    &:hover
-      font-weight 700
+    &:hover,
+    &.active
+      color $greenT1
 
     &-container
       display flex
@@ -45,8 +46,15 @@
       flex-direction row
 
   &-icon
-    height 13px
-    width 7px
+    &-fb
+      background-image url("../img/icons/icon-fb.png")
+      background-repeat no-repeat
+      background-size cover
+      height 13px
+      width 7px
+
+      &:hover
+        background-image url("../img/icons/icon-fb-green.png")
 
   &-logo
     height 33px
@@ -61,6 +69,9 @@
     font-size $fs11
     letter-spacing 0.8px
     margin-top 20px
+
+#phone-nohover
+  color $whitE
 
 @media screen and (min-width 730px) and (max-width 900px)
   .footer

@@ -1,7 +1,7 @@
 var homeProductsCarousel = $('.home-products-carousel');
 
 homeProductsCarousel.owlCarousel ({
-  loop: true,
+  loop: false,
   nav: true,
   dots: true,
   center: false,
@@ -12,8 +12,8 @@ homeProductsCarousel.owlCarousel ({
     0:{
       items: 1
     },
-    700:{
-      items: 1
+    651:{
+      items: 2
     },
     880: {
       items: 1

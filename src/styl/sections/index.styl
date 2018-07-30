@@ -155,10 +155,10 @@
     box-shadow 0 34px 40px 0 rgba(0, 0, 0, 0.5)
     display flex
     flex-direction row
-    height 321px
+    height 350px
     justify-content space-between
     margin -65px auto 120px auto
-    padding 0 99px
+    padding 0 80px
     position relative
     width 874px
     z-index 1
@@ -181,11 +181,11 @@
       background-color $whitE
       display flex
       flex-direction column
-      height 103px
+      height 110px
       justify-content flex-end
       padding 18px
       position relative
-      width 157px
+      width 184px
 
       &:nth-child(-n + 2)
         margin-bottom 13px
@@ -194,7 +194,7 @@
         display flex
         flex-wrap wrap
         justify-content space-between
-        width 327px
+        width 380px
 
       &-icon
         position absolute
@@ -203,7 +203,7 @@
 
       &-stage
         color $grayT2
-        font-size $fs11
+        font-size $fs13
         line-height 19px
 
       &-desc
@@ -213,6 +213,10 @@
         line-height 19px
         margin-top 5px
         max-width 83px
+
+    & a
+      display block
+      width 71.92px
 
   &-clients
     background-image url("../img/backgrounds/home-clients-bg.jpg")
@@ -251,6 +255,12 @@
       &-navigation
         height 37px
         width 37px
+
+    &-logo
+      &-container
+        align-items center
+        display flex
+        height 85px
 
   &-cup
     background-image url("../img/backgrounds/home-bg-gray-2.jpg")
@@ -428,6 +438,12 @@
     height 47px
     width 83px
 
+@media screen and (max-width 1270px)
+  .home
+    &-products
+      &-carousel
+        width 690px
+
 @media screen and (max-width 930px)
   .home
     &-products
@@ -443,8 +459,12 @@
           margin-left 40px
 
     &-machinery
+      height 314px
       padding 0 40px
       width 90%
+
+      &-subtitle
+        padding-right 20px
 
     &-allies
       width 90%
@@ -469,6 +489,9 @@
       height auto
       padding 40px 40px 50px 40px
 
+      &-subtitle
+        padding-right 0
+
       &-card
         &-container
           margin-top 35px
@@ -482,45 +505,73 @@
         background-position right
         width 440px
 
+@media screen and (max-width 660px)
+  .home
+    &-products
+      &-carousel
+        width 360px
+
 @media screen and (max-width 600px)
   .home
     &-cover
+      align-items center
+      height 510px
       padding 0 30px
+
+      &-content
+        width 202px
+
+      &-title,
+      &-subtitle
+        max-width 100%
 
       &-title
         font-size $fs40
         line-height 45px
 
+      &-arrow
+        margin 50px 0 70px 0
+
     &-products
+      margin-top -45px
+
       &-bg
-        height 840px
+        height 760px
         min-width 10px
 
       &-star
         &-desc
-          padding 40px 30px 30px 30px
+          padding 40px 30px 10px 30px
 
       &-title
         font-size $fs25
 
       &-subtitle
+        line-height 20px
         max-width 220px
 
       &-carousel
         margin-left -44px
 
         & .owl-nav
+          bottom 20px
           left 160px
 
+      &-btn
+        &-container
+          margin-top 20px
+
     &-machinery
+      background-image url("../img/backgrounds/home-machinery-mobile-bg.jpg")
+
       &-title
-        font-size $fs25
+        font-size $fs30
 
       &-card
-        width 120px
+        margin-bottom 13px
 
         &-container
-          width 253px
+          width 184px
 
     &-clients
       padding 60px 50px
@@ -550,6 +601,7 @@
         width auto
 
     &-allies
+      background-image url("../img/backgrounds/home-allies-mobile-bg.jpg")
       height auto
       margin -240px auto 80px auto
       padding-bottom 55px
