@@ -508,8 +508,31 @@
 @media screen and (max-width 660px)
   .home
     &-products
+      &-bg
+        min-width 0px
+
+      &-star
+        align-items center
+        display flex
+        flex-direction column
+        width 100%
+
       &-carousel
+        margin-left 0
         width 360px
+
+        & .owl-stage-outer
+          padding 0 46px
+
+        & .owl-nav
+          bottom 20px
+          left 0
+          margin 0 auto
+          right 0
+
+      &-btn
+        &-container
+          margin-left 0
 
 @media screen and (max-width 600px)
   .home
@@ -537,7 +560,6 @@
 
       &-bg
         height 760px
-        min-width 10px
 
       &-star
         &-desc
@@ -549,13 +571,6 @@
       &-subtitle
         line-height 20px
         max-width 220px
-
-      &-carousel
-        margin-left -44px
-
-        & .owl-nav
-          bottom 20px
-          left 160px
 
       &-btn
         &-container
