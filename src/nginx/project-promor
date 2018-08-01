@@ -5,7 +5,7 @@ server {
   root /home/static/promor;
   index index.html index.htm;
 
-  server_name sandbox.project-promor.getmore.mx;
+  server_name sandbox.project-promor.getmore.mx www.promor.com.mx promor.com.mx;
 
   location / {
       try_files $uri $uri/ =404;
