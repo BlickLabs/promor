@@ -29,4 +29,31 @@
       <span class="footer-copyright karla">{{es.footer.copyright}}</span>
     </div>
   </div>
+  <div class="footer-content-mobile">
+    <div class="footer-logo-container">
+      <a href="index.html">
+        <img class="footer-logo" src="{{es.footer.logo}}" alt="Logo of the footer">
+      </a>
+    </div>
+    <div class="footer-section-container">
+      <div class="footer-section-column">
+        <div style="align-items: center; display: flex; flex-direction: row; margin: 0 auto;">
+          <a href="index.html">
+            <span class="footer-section {% if section == 'index' %}active {% else %}karla{% endif %}">{{es.footer.sections.homepage}}</span>
+          </a>
+          <a href="contacto.html">
+            <span class="footer-section {% if section == 'contacto' %}active{% else %}karla{% endif %}">{{es.footer.sections.contact}}</span>
+          </a>
+          <span class="footer-section karla" id="phone-nohover">{{es.footer.sections.phone}}</span>
+          <a href="https://www.facebook.com/PromorCafe/" target="_blank">
+            <div class="footer-icon-fb"></div>
+          </a>
+        </div>
+      </div>
+      <a href="https://goo.gl/maps/rqVHrnTr7nx" target="_blank">
+        <span class="footer-section karla">{{es.footer.sections.address}}</span>
+      </a>
+    </div>
+    <span class="footer-copyright karla">{{es.footer.copyright}}</span>
+  </div>
 </footer>
