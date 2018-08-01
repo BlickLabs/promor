@@ -20,6 +20,9 @@
     justify-content space-between
     width 100%
 
+    &-mobile
+      display none
+
   &-section
     color $whitE
     display block
@@ -98,18 +101,63 @@
     height 300px
     padding 0
 
+    &-logo
+      &-container
+        align-items center
+
     &-content
-      width 205px
+      display none
+
+      &-mobile
+        align-items center
+        display flex
+        flex-direction column
+        width 100%
 
     &-section
       &-container
         flex-direction column
 
+        & div a:nth-child(2)
+          margin-top 0
+
         & a span
-          width 165px
+          margin 0 auto
+          text-align center
+          width 250px
 
       &-column
+        margin-bottom 30px
+
+        & div span
+          margin-right 0
+
         & div a span
-          margin-right 30px
-          margin-bottom 20px
+          margin-right 15px
+          margin-bottom 0
           width auto
+
+    &-copyright
+      margin-top 30px
+      text-align center
+
+  #phone-nohover
+    width auto
+
+    &:before
+      background-color $greenT1
+      content ""
+      display inline-block
+      height 12px
+      margin 0 15px 0 0
+      vertical-align middle
+      width 2px
+
+    &:after
+      background-color $greenT1
+      content ""
+      display inline-block
+      height 12px
+      margin 0 15px
+      vertical-align middle
+      width 2px
