@@ -95,12 +95,12 @@
         "title": "Algunos de nuestros clientes",
         "logos": [
           {
-            "logo": "img/logos/logo-olam.png",
-            "logoClass": "cafe-olam"
+            "logo": "img/logos/logo-california.png",
+            "logoClass": "cafe-california"
           },
           {
-            "logo": "img/logos/logo-ecom.png",
-            "logoClass": "cafe-ecom"
+            "logo": "img/logos/logo-don-pepe-coffee.png",
+            "logoClass": "cafe-donpepe"
           },
           {
             "logo": "img/logos/logo-cafe-bola-oro.png",
@@ -111,8 +111,12 @@
             "logoClass": "cafe-kassandra"
           },
           {
-            "logo": "img/logos/logo-california.png",
-            "logoClass": "cafe-california"
+            "logo": "img/logos/logo-olam.png",
+            "logoClass": "cafe-olam"
+          },
+          {
+            "logo": "img/logos/logo-ecom.png",
+            "logoClass": "cafe-ecom"
           },
           {
             "logo": "img/logos/logo-cafe-custepec.png",
@@ -141,10 +145,6 @@
           {
             "logo": "img/logos/logo-colegio-postgraduados.png",
             "logoClass": "cafe-postgraduados"
-          },
-          {
-            "logo": "img/logos/logo-don-pepe-coffee.png",
-            "logoClass": "cafe-donpepe"
           },
           {
             "logo": "img/logos/logo-finca-monte-grande.png",
