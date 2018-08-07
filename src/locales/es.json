@@ -172,6 +172,10 @@
             "logoClass": "allies-logo-penagos"
           },
           {
+            "logo": "/img/logos/logo-centriflux.jpg",
+            "logoClass": "allies-logo-centriflux"
+          },
+          {
             "logo": "/img/logos/logo-mahlkonig.png",
             "logoClass": "allies-logo-mahlkonig"
           }
