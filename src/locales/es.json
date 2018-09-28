@@ -39,23 +39,33 @@
         "carousel": [
           {
             "card": "coffee-toaster",
-            "title": "Tostador para café"
+            "link": "tostador-5kg.html",
+            "title": "Tostador 5kg"
           },
           {
             "card": "coffee-grinder",
-            "title": "Molino EK - 43"
+            "link": "molino-ek43s.html",
+            "title": "Molino EK43S"
           },
           {
             "card": "centriflux",
+            "link": "centriflux.html",
             "title": "Centriflux"
           },
           {
-            "card": "penagos-module",
-            "title": "Módulo Penagos ECO - 400"
+            "card": "pulper",
+            "link": "despulpadora-dh4.html",
+            "title": "Despulpadora DH 4"
+          },
+          {
+            "card": "dryer",
+            "link": "secadora-10qq",
+            "title": "Secadora 10qq"
           },
           {
             "card": "mortar",
-            "title": "Morteadora de Expendio"
+            "link": "morteadora-de-expendio.html",
+            "title": "Morteadora de expendio"
           }
         ],
         "btn": "cotiza"
