@@ -29,7 +29,7 @@
     "home": {
       "cover": {
         "title": "Maquinaria para café",
-        "subtitle": "Más de 40 años dedicados al diseño y fabricación de maquinaria para café.",
+        "subtitle": "Desde 1942 dedicados al diseño y fabricación de maquinaria para café.",
         "btn": "contacto",
         "arrow": "/img/icons/icon-arrow-down.png"
       },
@@ -44,6 +44,10 @@
           {
             "card": "coffee-grinder",
             "title": "Molino EK - 43"
+          },
+          {
+            "card": "centriflux",
+            "title": "Centriflux"
           },
           {
             "card": "penagos-module",
@@ -91,12 +95,12 @@
         "title": "Algunos de nuestros clientes",
         "logos": [
           {
-            "logo": "img/logos/logo-olam.png",
-            "logoClass": "cafe-olam"
+            "logo": "img/logos/logo-california.png",
+            "logoClass": "cafe-california"
           },
           {
-            "logo": "img/logos/logo-ecom.png",
-            "logoClass": "cafe-ecom"
+            "logo": "img/logos/logo-don-pepe-coffee.png",
+            "logoClass": "cafe-donpepe"
           },
           {
             "logo": "img/logos/logo-cafe-bola-oro.png",
@@ -107,8 +111,12 @@
             "logoClass": "cafe-kassandra"
           },
           {
-            "logo": "img/logos/logo-california.png",
-            "logoClass": "cafe-california"
+            "logo": "img/logos/logo-olam.png",
+            "logoClass": "cafe-olam"
+          },
+          {
+            "logo": "img/logos/logo-ecom.png",
+            "logoClass": "cafe-ecom"
           },
           {
             "logo": "img/logos/logo-cafe-custepec.png",
@@ -139,10 +147,6 @@
             "logoClass": "cafe-postgraduados"
           },
           {
-            "logo": "img/logos/logo-don-pepe-coffee.png",
-            "logoClass": "cafe-donpepe"
-          },
-          {
             "logo": "img/logos/logo-finca-monte-grande.png",
             "logoClass": "cafe-montegrande"
           },
@@ -154,7 +158,7 @@
       },
       "cup": {
         "title": "Taza de Excelencia",
-        "descPart1": "Los primeros lugares de la",
+        "descPart1": "Primeros lugares de la",
         "descPart2": "Taza de Excelencia",
         "descPart3": "los ocupan equipos",
         "descPart4": "Promor",
@@ -166,6 +170,10 @@
           {
             "logo": "/img/logos/logo-penagos.png",
             "logoClass": "allies-logo-penagos"
+          },
+          {
+            "logo": "/img/logos/logo-centriflux.jpg",
+            "logoClass": "allies-logo-centriflux"
           },
           {
             "logo": "/img/logos/logo-mahlkonig.png",
