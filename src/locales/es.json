@@ -9,6 +9,16 @@
           "viewName": "homepage"
         },
         {
+          "section": "Productos estrella",
+          "link": "productos-estrella.html",
+          "viewName": "starProducts"
+        },
+        {
+          "section": "Nosotros",
+          "link": "nosotros.html",
+          "viewName": "aboutUs"
+        },
+        {
           "section": "Contacto",
           "link": "contacto.html",
           "viewName": "contact"
