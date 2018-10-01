@@ -26,12 +26,14 @@
       </div>
       <div class="home-products-carousel owl-carousel">
         {% for product in es.home.products.carousel %}
-        <div class="home-products-card {{product.card}}">
-          <div class="home-products-card-hover">
-            <div class="home-products-card-separator"></div>
-            <span class="home-products-card-title karla-bold">{{product.title}}</span>
+        <a href="{{product.link}}">
+          <div class="home-products-card {{product.card}}">
+            <div class="home-products-card-hover">
+              <div class="home-products-card-separator"></div>
+              <span class="home-products-card-title karla-bold">{{product.title}}</span>
+            </div>
           </div>
-        </div>
+        </a>
         {% endfor %}
       </div>
       <div class="home-products-btn-container">
