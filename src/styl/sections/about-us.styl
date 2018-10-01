@@ -1,0 +1,173 @@
+.aboutus
+  &-cover
+    background-image url("../img/about-us/nosotros-cover.jpg")
+    background-position center
+    background-repeat no-repeat
+    background-size cover
+    height 598px
+    padding 110px 0 0 105px
+
+    &-title
+      color $whitE
+      font-size $fs30
+      margin-bottom 25px
+
+    &-desc
+      color $whitE
+      font-size $fs16
+      letter-spacing 0.2px
+      line-height 26px
+      width 513px
+
+  &-since
+    align-items flex-end
+    display flex
+    flex-direction row
+    margin-top -200px
+
+    &-bg
+      background-image url("../img/about-us/nosotros-imagen-cafe.jpg")
+      background-position center
+      background-repeat no-repeat
+      background-size cover
+      height 606px
+      width 100%
+
+    &-content
+      align-items center
+      background-color #ededed
+      display flex
+      flex-direction column
+      height 520px
+      margin-left -220px
+      min-width 586px
+      padding-top 59px
+
+    &-banner
+      align-items center
+      background-image url("../img/about-us/nosotros-banner.jpg")
+      background-position center
+      background-repeat no-repeat
+      background-size cover
+      box-shadow 0 34px 40px 0 rgba(0, 0, 0, 0.5)
+      display flex
+      height 74px
+      padding-left 17px
+      width 467px
+
+    &-title
+      color $whitE
+      font-size $fs30
+      letter-spacing 0.7px
+
+    &-desc
+      color $blackT1
+      font-size 16px
+      letter-spacing 0.2px
+      line-height 28px
+      padding 44px 15px  0 14px
+      width 467px
+
+  &-quality
+    align-items center
+    background-image url("../img/about-us/nosotros-taza.jpg")
+    background-position top -40px right
+    background-repeat no-repeat
+    background-size 685px
+    display flex
+    flex-direction column
+    padding 58px 0
+
+    &-card
+      background-color $whitE
+      box-shadow 0 9px 22px 0 rgba(0, 0, 0, 0.22)
+      height auto
+      margin-bottom 32px
+      padding 19px 90px
+      width 880px
+
+      &-desc
+        color $blackT1
+        font-size $fs16
+        letter-spacing 0.2px
+        line-height 26px
+        text-align center
+
+    &-title
+      color $blackT1
+      font-size $fs30
+      letter-spacing 0.7px
+      line-height 49px
+      margin 20px 0 15px 0
+
+    &-desc
+      color $blackT1
+      font-size 16px
+      letter-spacing 0.2px
+      line-height 26px
+      text-align center
+      width 670px
+
+@media screen and (min-width 1366px)
+  .aboutus
+    &-since
+      justify-content center
+
+      &-bg
+        width 661px
+
+@media screen and (max-width 960px)
+  .aboutus
+    &-quality
+      &-card
+        width 85%
+
+@media screen and (max-width 680px)
+  .aboutus
+    &-cover
+      height auto
+      padding 110px 30px 50px 30px
+
+      &-title
+        font-size $fs25
+
+      &-desc
+        font-size $fs13
+        width auto
+
+    &-since
+      flex-direction column
+      margin-top 0
+
+      &-bg
+        height 200px
+
+      &-content
+        height auto
+        margin-left 0
+        min-width auto
+        padding 59px 0
+
+      &-banner
+        width 85%
+
+      &-title
+        font-size $fs25
+
+      &-desc
+        font-size $fs13
+        width 85%
+
+    &-quality
+      &-card
+        padding 19px 30px
+
+        &-desc
+          font-size $fs13
+
+      &-title
+        font-size $fs25
+
+      &-desc
+        font-size $fs13
+        width 85%

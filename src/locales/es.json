@@ -202,6 +202,32 @@
         ]
       }
     },
+    "aboutus": {
+      "cover": {
+        "title": "Maquinaria para Café",
+        "descOne": "Promor Maquinaria para Café nació en Coatepec, Veracruz, México en 1940, desde el centro de la tradición de fabricación de maquinaria para café en Coatepec.",
+        "descTwo": "Desde entonces Promor se ha distinguido por proveer soluciones de proceso desde el diseño de plantas hasta la fabricación y montaje de la maquinaria,  en los años setentas desarrollamos y fabricamos equipo para procesar cacao."
+      },
+      "since": {
+        "title": "Desde  1940",
+        "desc": "Heredamos el gusto y la pasión por el trabajo bien hecho, desde los procesos artesanales de fabricación y no es difícil encontrar alguna de nuestras máquinas de aquella época aún en funcionamiento. Tales valores tradicionales combinados con una actitud profundamente moderna hacia la tecnología nos ha convertido en la Empresa fabricante y comercializadora de equipos para procesar café más grande e importante de México, nadie ha fabricado e instalado más equipos en México que Promor Maquinaria para Café."
+      },
+      "quality": {
+        "cards": [
+          {
+            "desc": "En 1994 nos asociamos comercialmente con la Compañía Penagos Hermanos de Colombia, líder mundial en el proceso húmedo con Beneficios Ecológicos para café."
+          },
+          {
+            "desc": "En 1998 nos asociamos comercialmente con la Compañía Malhkonig de Alemania, líder mundial en fabricación de molinos para café."
+          },
+          {
+            "desc": "En 2018 nos asociamos comercialmente con la Compañía Origem do Brasil, fabricante de la centrifugadora y transportadora de café."
+          }
+        ],
+        "title": "La mejor calidad",
+        "desc": "La calidad de nuestros productos y servicios son el resultado de la experiencia, innovación, tecnología y sobre todo un equipo humano de alto valor."
+      }
+    },
     "contact": {
       "cover": {
         "envelopeIcon": "/img/icons/icon-envelope.png",
