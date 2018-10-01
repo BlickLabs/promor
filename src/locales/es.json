@@ -69,7 +69,7 @@
           },
           {
             "card": "dryer",
-            "link": "secadora-10qq",
+            "link": "secadora-10qq.html",
             "title": "Secadora 10qq"
           },
           {
@@ -201,6 +201,48 @@
           }
         ]
       }
+    },
+    "starProducts": {
+      "title": "Productos estrella",
+      "desc": "Buscamos día con día la mejor calidad en el mercado",
+      "cards": [
+        {
+          "link": "tostador-5kg.html",
+          "img": "/img/star-products/producto-tostador-5kg.jpg",
+          "imgAlt": "Imagen del producto tostador 5kg",
+          "title": "tostador 5kg"
+        },
+        {
+          "link": "molino-ek43s.html",
+          "img": "/img/star-products/producto-molino-ek43s.jpg",
+          "imgAlt": "Imagen del producto molino ek43s",
+          "title": "molino ek43s"
+        },
+        {
+          "link": "centriflux.html",
+          "img": "/img/star-products/producto-centriflux.jpg",
+          "imgAlt": "Imagen del producto centriflux",
+          "title": "centriflux"
+        },
+        {
+          "link": "despulpadora-dh4.html",
+          "img": "/img/star-products/producto-despulpadora-dh-4.jpg",
+          "imgAlt": "Imagen del producto despulpadora dh 4",
+          "title": "despulpadora dh 4"
+        },
+        {
+          "link": "secadora-10qq.html",
+          "img": "/img/star-products/producto-secadora-10qq.jpg",
+          "imgAlt": "Imagen del producto secadora 10qq",
+          "title": "secadora 10qq"
+        },
+        {
+          "link": "morteadora-de-expendio.html",
+          "img": "/img/star-products/producto-morteadora-de-expendio.jpg",
+          "imgAlt": "Imagen del producto morteadora de expendio",
+          "title": "morteadora de expendio"
+        }
+      ]
     },
     "aboutus": {
       "cover": {

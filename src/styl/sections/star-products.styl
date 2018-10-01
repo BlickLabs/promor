@@ -1,0 +1,108 @@
+.products
+  &-cover
+    background-image url("../img/star-products/imagen-de-fondo-producto.jpg")
+    background-position center
+    background-repeat no-repeat
+    background-size cover
+    height 586px
+
+  &-card
+    background-color $whitE
+    box-shadow 0 22px 44px 0 rgba(0, 0, 0, 0.2)
+    margin -450px auto 0 auto
+    padding 40px 0 20px 0
+    width 819px
+
+    &-title
+      color $blackT1
+      font-size $fs40
+      letter-spacing 0.9px
+      line-height 42px
+
+    &-desc
+      color $grayT1
+      font-size $fs16
+      letter-spacing 0.2px
+      line-height 30px
+
+    &-title,
+    &-desc
+      padding-left 73px
+
+    &-content
+      display flex
+      flex-wrap wrap
+      justify-content center
+      padding-top 38px
+
+  &-item
+    &-link
+      display block
+      height 309px
+      margin-bottom 21px
+      width 210px
+
+      &:nth-child(2),
+      &:nth-child(5)
+        margin 0 21px
+
+    &-title
+      color $blackT1
+      font-size $fs14
+      letter-spacing 0.9px
+      line-height 18px
+      text-align center
+      text-transform uppercase
+
+      &-container
+        align-items center
+        display flex
+        height 52px
+        justify-content center
+        padding 0 20px
+
+    &-img
+      height 257px
+      width 210px
+
+      &-container
+        height 257px
+
+@media screen and (max-width 890px)
+  .products
+    &-card
+      width 588px
+
+    &-item
+      &-link
+        &:nth-child(2),
+        &:nth-child(5)
+          margin 0
+
+        &:nth-child(odd)
+          margin-right 21px
+
+@media screen and (max-width 660px)
+  .products
+    &-card
+      margin-top -465px
+      padding-top 30px
+      width 280px
+
+      &-title
+        font-size $fs25
+
+      &-desc
+        font-size $fs13
+        line-height 20px
+
+      &-title,
+      &-desc
+        padding 0 35px
+
+    &-item
+      &-link
+        margin-bottom 21px !important
+
+        &:nth-child(odd)
+          margin-right 0
