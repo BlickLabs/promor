@@ -1,0 +1,35 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Nosotros{% endblock %}
+
+{% set view_name = "aboutUs" %}
+
+{% block content %}
+<section class="aboutus">
+  <section class="aboutus-cover">
+    <h1 class="aboutus-cover-title bigcaslon-medium">{{es.aboutus.cover.title}}</h1>
+    <p class="aboutus-cover-desc karla">{{es.aboutus.cover.descOne}}</p>
+    <p class="aboutus-cover-desc karla">{{es.aboutus.cover.descTwo}}</p>
+  </section>
+
+  <section class="aboutus-since">
+    <div class="aboutus-since-bg"></div>
+    <div class="aboutus-since-content">
+      <div class="aboutus-since-banner">
+        <h2 class="aboutus-since-title bigcaslon-medium">{{es.aboutus.since.title}}</h2>
+      </div>
+      <p class="aboutus-since-desc karla">{{es.aboutus.since.desc}}</p>
+    </div>
+  </section>
+
+  <section class="aboutus-quality">
+    {% for card in es.aboutus.quality.cards %}
+    <div class="aboutus-quality-card">
+      <p class="aboutus-quality-card-desc karla">{{card.desc}}</p>
+    </div>
+    {% endfor %}
+    <h2 class="aboutus-quality-title bigcaslon-medium">{{es.aboutus.quality.title}}</h2>
+    <p class="aboutus-quality-desc karla">{{es.aboutus.quality.desc}}</p>
+  </section>
+</section>
+{% endblock %}
