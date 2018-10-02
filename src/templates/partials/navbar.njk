@@ -1,6 +1,6 @@
 <nav class="nav {% if section  != index %}nav-scroll{% endif %}">
   <div class="nav-logo-container">
-    <a href="index.html">
+    <a href="{{es.nav.logoLink}}">
       <img class="nav-logo" src="{{es.nav.logo}}" alt="Nav logo">
     </a>
   </div>
@@ -29,7 +29,7 @@
   <div class="hamburger-menu-container" id="menuContainer" data-attribute="">
     <div class="hamburger-menu-header" data-attribute="">
       <div class="" data-attribute="">
-        <a href="index.html" data-attribute="">
+        <a href="{{es.nav.logoLink}}" data-attribute="">
           <img class="nav-logo" src="{{es.nav.logo}}" data-attribute="" alt="Hamburger menu logo">
         </a>
       </div>
