@@ -2,10 +2,11 @@
   "es": {
     "nav": {
       "logo": "/img/logos/logo-promor-white.png",
+      "logoLink": "/",
       "info": [
         {
           "section": "Inicio",
-          "link": "index.html",
+          "link": "/",
           "viewName": "homepage"
         },
         {
@@ -28,13 +29,34 @@
     },
     "footer": {
       "logo": "/img/logos/logo-promor-white.png",
+      "logoLink": "/",
+      "phone": "+52 (228) 816 0044",
+      "address": "2da de Altamirano, 49. Col. Centro CP. 91500. Coatepec, Ver. México.",
+      "addressLink": "https://goo.gl/maps/rqVHrnTr7nx",
+      "fbLink": "https://www.facebook.com/PromorCafe/",
       "copyright": "Copyright© Promor 2018",
-      "sections": {
-        "homepage": "Inicio",
-        "contact": "Contacto",
-        "phone": "+52 (228) 816 0044",
-        "address": "2da de Altamirano, 49. Col. Centro CP. 91500. Coatepec, Ver. México."
-      }
+      "sections": [
+        {
+          "name": "Inicio",
+          "link": "/",
+          "viewName": "homepage"
+        },
+        {
+          "name": "Productos estrella",
+          "link": "productos-estrella.html",
+          "viewName": "starProducts"
+        },
+        {
+          "name": "Nosotros",
+          "link": "nosotros.html",
+          "viewName": "aboutUs"
+        },
+        {
+          "name": "Contacto",
+          "link": "contacto.html",
+          "viewName": "contact"
+        }
+      ]
     },
     "home": {
       "cover": {
