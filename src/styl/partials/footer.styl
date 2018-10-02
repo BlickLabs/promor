@@ -4,49 +4,47 @@
   background-position center
   background-repeat no-repeat
   background-size cover
-  bottom 0
   display flex
-  flex-direction row
   height 192px
-  justify-content space-between
   padding 0 108px
-  position absolute
   width 100%
 
   &-content
     display flex
-    flex-direction row
-    height 72px
     justify-content space-between
-    width 100%
+    flex 1
 
     &-mobile
       display none
 
+  &-info
+    display flex
+    flex-direction row
+
   &-section
     color $whitE
-    display block
     font-size $fs12
     letter-spacing 1px
-    line-height 20px
-    width 165px
 
-    &:hover,
-    &.active
+    &:not(#phone-nohover):hover,
+    &:not(#phone-nohover).active
       color $greenT1
 
     &-container
       display flex
-      flex-direction row
+      flex-wrap wrap
+      width 246px
 
-      & div a:nth-child(2),
-      .footer-icon
-        display block
-        margin-top 24px
+    &-content
+      &:nth-child(-n+2)
+        margin-bottom 20px
 
-    &-column
-      display flex
-      flex-direction row
+      &:nth-child(odd)
+        margin-right 70px
+        width 58px
+
+      &:nth-child(even)
+        width 118px
 
   &-icon
     &-fb
@@ -58,6 +56,14 @@
 
       &:hover
         background-image url("../img/icons/icon-fb-green.png")
+
+  &-contact
+    &-container
+      display flex
+      flex-direction row
+
+    &-middle
+      margin 0 70px
 
   &-logo
     height 33px
@@ -73,37 +79,33 @@
     letter-spacing 0.8px
     margin-top 20px
 
-#phone-nohover
-  color $whitE
+#footer
+  &-address
+    line-height 20px
+    width 165px
 
-@media screen and (min-width 730px) and (max-width 900px)
-  .footer
-    padding 0 30px
+  &-fb
+    display block
+    margin-top 23px
+    width 7px
 
-@media screen and (max-width 729px)
-  .footer
-    justify-content center
-    padding 0 30px
-
-    &-content
-      flex-direction column-reverse
-      height auto
-      width 495px
-
-    &-logo
-      &-container
-        margin-bottom 30px
-        & a
-          width 117px
-
-@media screen and (max-width 540px)
+@media screen and (max-width 1090px)
   .footer
     height 300px
     padding 0
 
+    &-content
+      align-items center
+      flex-direction column-reverse
+      justify-content center
+
     &-logo
       &-container
-        align-items center
+        margin-bottom 35px
+
+@media screen and (max-width 740px)
+  .footer
+    justify-content center
 
     &-content
       display none
@@ -112,52 +114,63 @@
         align-items center
         display flex
         flex-direction column
-        width 100%
+
+    &-info
+      align-items center
+      flex-direction column
 
     &-section
-      &-container
-        flex-direction column
-
-        & div a:nth-child(2)
-          margin-top 0
-
-        & a span
-          margin 0 auto
-          text-align center
-          width 250px
-
-      &-column
-        margin-bottom 30px
-
-        & div span
-          margin-right 0
-
-        & div a span
-          margin-right 15px
-          margin-bottom 0
-          width auto
-
-    &-copyright
-      margin-top 30px
+      line-height 26px
+      margin 0 10px
       text-align center
 
+      &-container
+        justify-content center
+        width 320px
+
+      &-content
+        &:nth-child(-n+2)
+          margin-bottom 0
+
+        &:nth-child(odd)
+          margin-right 0
+          width auto
+
+        &:nth-child(even)
+          width auto
+
+    &-contact
+      &-middle
+        align-items center
+        display flex
+        margin 0
+
+    &-copyright
+      margin-top 25px
+
   #phone-nohover
-    width auto
+    align-items center
+    display flex
+    margin 0
 
-    &:before
-      background-color $greenT1
-      content ""
-      display inline-block
-      height 12px
-      margin 0 15px 0 0
-      vertical-align middle
-      width 2px
-
+    &:before,
     &:after
       background-color $greenT1
       content ""
-      display inline-block
+      display block
       height 12px
-      margin 0 15px
-      vertical-align middle
       width 2px
+
+    &:before
+      margin 0px 10px 0 0
+
+    &:after
+      margin 0px 10px 0 10px
+
+  #footer
+    &-fb
+      margin-top -2px
+
+    &-address
+      margin-top 20px
+      width 254px
