@@ -2,10 +2,11 @@
   "es": {
     "nav": {
       "logo": "/img/logos/logo-promor-white.png",
+      "logoLink": "/",
       "info": [
         {
           "section": "Inicio",
-          "link": "index.html",
+          "link": "/",
           "viewName": "homepage"
         },
         {
@@ -28,13 +29,34 @@
     },
     "footer": {
       "logo": "/img/logos/logo-promor-white.png",
+      "logoLink": "/",
+      "phone": "+52 (228) 816 0044",
+      "address": "2da de Altamirano, 49. Col. Centro CP. 91500. Coatepec, Ver. México.",
+      "addressLink": "https://goo.gl/maps/rqVHrnTr7nx",
+      "fbLink": "https://www.facebook.com/PromorCafe/",
       "copyright": "Copyright© Promor 2018",
-      "sections": {
-        "homepage": "Inicio",
-        "contact": "Contacto",
-        "phone": "+52 (228) 816 0044",
-        "address": "2da de Altamirano, 49. Col. Centro CP. 91500. Coatepec, Ver. México."
-      }
+      "sections": [
+        {
+          "name": "Inicio",
+          "link": "/",
+          "viewName": "homepage"
+        },
+        {
+          "name": "Productos estrella",
+          "link": "productos-estrella.html",
+          "viewName": "starProducts"
+        },
+        {
+          "name": "Nosotros",
+          "link": "nosotros.html",
+          "viewName": "aboutUs"
+        },
+        {
+          "name": "Contacto",
+          "link": "contacto.html",
+          "viewName": "contact"
+        }
+      ]
     },
     "home": {
       "cover": {
@@ -178,8 +200,8 @@
       },
       "cup": {
         "title": "Taza de Excelencia",
-        "descPart1": "Los primeros lugares de la",
-        "descPart2": "Taza de Excelencia",
+        "descPart1": "Los primeros lugares de",
+        "descPart2": "La Taza de Excelencia",
         "descPart3": "ocupan equipos",
         "descPart4": "Promor",
         "btn": "cotiza"
@@ -243,6 +265,68 @@
           "title": "morteadora de expendio"
         }
       ]
+    },
+    "pulper": {
+      "titlePartOne": "Despulpadora",
+      "titlePartTwo": "horizontal de café DH 4",
+      "descOne": "Concepto de despulpadora muy liviana y versátil que posee una resistente camisa preformada de acero inoxidable",
+      "subtitleOne": "Facilidad en el cambio de la camisa:",
+      "descTwoPartOne": "Posee un novedoso sistema para encamisar dado que la camisa es un cilindro enterizo de lámina de acero inoxidable calibre 22, el cual trae un refuerzo en cloruro de polivinilo (PVC) que no se oxida ni se deforma con la humedad y tiene una durabilidad tres veces mayor a la camisa de cobre bajo condiciones normales de trabajo.",
+      "descTwoPartTwo": "Esta camisa se cambia fácilmente sin necesidad de clavos ni tacos.",
+      "subtitleTwo": "Gran desempeño tanto manual como con motor debido a la ubicación del manubrio:",
+      "descThree": "El manubrio se encuentra en el eje alimentador por lo tanto cuando se opera manualmente se obtiene una velocidad de cilindro igual a cuando se trabaja con motor, teniendo una fácil adaptación para motor a gasolina",
+      "subtitleThree": "Facilidad para ajustar o calibrar el pechero:",
+      "descFour": "Se ajusta con solo 8 tuercas: 4 atrás y 4  al frente del pechero.",
+      "subtitleFive": "Ventajas:",
+      "list": [
+        {
+          "item": "El diseño de los canales del pechero y la camisa permiten alta eficiencia en el despulpado y cero pérdidas de grano en la pulpa."
+        },
+        {
+          "item": "Despulpa sin usar agua."
+        },
+        {
+          "item": "Bajo cascareo."
+        },
+        {
+          "item": "Aumenta la productividad."
+        },
+        {
+          "item": "Bajo daño mecánico."
+        },
+        {
+          "item": "Tolva de mayor capacidad de almacenamiento."
+        }
+      ],
+      "subtitleSix": "Detalles técnicos:",
+      "tableTH": [
+        {
+          "content": "descripción"
+        },
+        {
+          "content": "dh-4"
+        }
+      ],
+      "tableTD": [
+        {
+          "contentLeft": "Capacidad (kg Cereza Hora)",
+          "contentRight": "300 - 400"
+        },
+        {
+          "contentLeft": "Potencia requerida",
+          "contentRight": "0.75 HP / 1800 rpm"
+        },
+        {
+          "contentLeft": "Número de chorros",
+          "contentRight": "3"
+        },
+        {
+          "contentLeft": "Peso neto",
+          "contentRight": "40,5 kilos"
+        }
+      ],
+      "img": "/img/star-products/despulpadora-horizontal-para-cafe.jpg",
+      "imgAlt": "Imagen del producto Despulpadora horizontal para café DH 4"
     },
     "aboutus": {
       "cover": {

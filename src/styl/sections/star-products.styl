@@ -42,6 +42,15 @@
       margin-bottom 21px
       width 210px
 
+      &:hover .products-item-img-layer
+        opacity 0.9
+        transition 0.3s
+
+      &:hover .products-item-img-container
+        box-shadow 0 34px 31px 0 rgba(0,0,0,0.5)
+        transform scale(1.04)
+        transition 0.3s
+
       &:nth-child(2),
       &:nth-child(5)
         margin 0 21px
@@ -67,6 +76,18 @@
 
       &-container
         height 257px
+        position relative
+        transition 0.3s
+
+      &-layer
+        background-color #0d4525
+        bottom 0
+        left 0
+        opacity 0
+        position absolute
+        right 0
+        top 0
+        transition 0.3s
 
 @media screen and (max-width 890px)
   .products

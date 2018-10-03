@@ -1,0 +1,46 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Despulpadora horizontal de café DH 4{% endblock %}
+
+{% set view_name = "starProducts" %}
+
+{% block content %}
+<section class="starProds">
+  <div class="starProds-background"></div>
+  <div class="starProds-sheet">
+    <div class="starProds-sheet-content">
+      <h1 class="starProds-sheet-title bigcaslon-medium">{{es.pulper.titlePartOne}}<br>{{es.pulper.titlePartTwo}}</h1>
+      <p class="starProds-sheet-desc karla-bold" id="descWithBorders">{{es.pulper.descOne}}</p>
+      <h2 class="starProds-sheet-subtitle karla-bold">{{es.pulper.subtitleOne}}</h2>
+      <p class="starProds-sheet-desc karla">{{es.pulper.descTwoPartOne}}<br>{{es.pulper.descTwoPartTwo}}</p>
+      <h2 class="starProds-sheet-subtitle karla-bold">{{es.pulper.subtitleTwo}}</h2>
+      <p class="starProds-sheet-desc karla">{{es.pulper.descThree}}</p>
+      <h2 class="starProds-sheet-subtitle karla-bold">{{es.pulper.subtitleThree}}</h2>
+      <p class="starProds-sheet-desc karla">{{es.pulper.descFour}}</p>
+      <h2 class="starProds-sheet-subtitle karla-bold">{{es.pulper.subtitleFive}}</h2>
+      <ul class="starProds-sheet-ul">
+        {% for list in es.pulper.list %}
+        <li class="starProds-sheet-li karla">{{list.item}}</li>
+        {% endfor %}
+      </ul>
+      <h2 class="starProds-sheet-subtitle karla-bold">{{es.pulper.subtitleSix}}</h2>
+      <div class="starProds-table-container">
+        <table class="starProds-table">
+          <tr>
+            {% for th in es.pulper.tableTH %}
+            <th class="karla-bold">{{th.content}}</th>
+            {% endfor %}
+          </tr>
+          {% for td in es.pulper.tableTD %}
+          <tr>
+            <td class="karla">{{td.contentLeft}}</td>
+            <td class="karla">{{td.contentRight}}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+    <img class="starProds-sheet-img" src="{{es.pulper.img}}" alt="{{es.pulper.imgAlt}}">
+  </div>
+</section>
+{% endblock %}
