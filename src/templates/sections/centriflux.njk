@@ -1,0 +1,42 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Centriflux Cafés{% endblock %}
+
+{% set view_name = "starProducts" %}
+
+{% block content %}
+<section class="starProds">
+  <div class="starProds-background"></div>
+  <div class="starProds-sheet">
+    <div class="starProds-sheet-content">
+      <h1 class="starProds-sheet-title bigcaslon-medium">{{es.centriflux.title}}</h1>
+      <p class="starProds-sheet-desc karla-bold" id="descWithBorders">{{es.centriflux.descOnePartOne}}<br>{{es.centriflux.descOnePartTwo}}</p>
+      <h2 class="starProds-sheet-subtitle karla-bold">{{es.centriflux.subtitleOne}}</h2>
+      <p class="starProds-sheet-desc karla">{{es.centriflux.descTwoPartOne}}<br>{{es.centriflux.descTwoPartTwo}}</p>
+      <h2 class="starProds-sheet-subtitle karla-bold">{{es.centriflux.subtitleFive}}</h2>
+      <ul class="starProds-sheet-ul">
+        {% for list in es.centriflux.list %}
+        <li class="starProds-sheet-li karla">{{list.item}}</li>
+        {% endfor %}
+      </ul>
+      <h2 class="starProds-sheet-subtitle karla-bold">{{es.centriflux.subtitleSix}}</h2>
+      <div class="starProds-table-container">
+        <table class="starProds-table">
+          <tr>
+            {% for th in es.centriflux.tableTH %}
+            <th class="karla-bold">{{th.content}}</th>
+            {% endfor %}
+          </tr>
+          {% for td in es.centriflux.tableTD %}
+          <tr>
+            <td class="karla">{{td.contentLeft}}</td>
+            <td class="karla">{{td.contentRight}}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+    <img class="starProds-sheet-img centrifluxProduct" src="{{es.centriflux.img}}" alt="{{es.centriflux.imgAlt}}">
+  </div>
+</section>
+{% endblock %}
