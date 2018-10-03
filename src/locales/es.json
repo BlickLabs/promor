@@ -328,6 +328,64 @@
       "img": "/img/star-products/despulpadora-horizontal-para-cafe.jpg",
       "imgAlt": "Imagen del producto Despulpadora horizontal para café DH 4"
     },
+    "grinder": {
+      "title": "Molino EK 43 S",
+      "descOne": "El rey de los molinos, abriendo nuevos caminos en el molido de café premium combinando mano de obra alemana y tecnología innovadora, inspirado en las altas exigencias de la industria internacional de los cafés especiales.",
+      "subtitleFive": "Ventajas:",
+      "list": [
+        {
+          "item": "El rendimiento y la calidad del probado EK 43 ahora en una carcasa más pequeña que facilita el trabajo del barista."
+        },
+        {
+          "item": "La excelente distribución de tamaño de partícula excepcional permite altas tasas de extracción para el mejor sabor."
+        },
+        {
+          "item": "Aplicación versátil: filtro, espresso o molienda turca."
+        },
+        {
+          "item": "Ajuste fácil y preciso del grado de molienda."
+        },
+        {
+          "item": "Discos de molienda calidad premium."
+        },
+        {
+          "item": "Molino pequeño y robusto con alto rendimiento de molienda."
+        }
+      ],
+      "subtitleSix": "Detalles técnicos:",
+      "tableTH": [
+        {
+          "content": "descripción"
+        },
+        {
+          "content": "ek 43 s"
+        }
+      ],
+      "tableTD": [
+        {
+          "contentLeft": "Capacidad de molienda",
+          "contentRight": "25  gr / s"
+        },
+        {
+          "contentLeft": "Potencia nominal",
+          "contentRight": "890 W"
+        },
+        {
+          "contentLeft": "Voltaje / frecuencia / fases",
+          "contentRight": "100-120 V / 60 Hz / 1-"
+        },
+        {
+          "contentLeft": "Capacidad de la tolva",
+          "contentRight": "800 gr"
+        },
+        {
+          "contentLeft": "Material de los discos",
+          "contentRight": "Acero fundido"
+        }
+      ],
+      "img": "/img/home/home-molino-ek-43.jpg",
+      "imgAlt": "Imagen del producto Molino EK 43 S"
+    },
     "aboutus": {
       "cover": {
         "title": "Maquinaria para Café",
