@@ -42,6 +42,12 @@
       margin-bottom 21px
       width 210px
 
+      /*ELIMINAR CUANDO YA ESTÉ LA INFORMACIÓN...*/
+      &:nth-child(1),
+      &:nth-child(6)
+        pointer-events none
+      /*...DE LOS DOS PRODUCTOS FALTANTES*/
+
       &:hover .products-item-img-layer
         opacity 0.9
         transition 0.3s
@@ -106,9 +112,12 @@
 @media screen and (max-width 660px)
   .products
     &-card
+      align-items center
+      display flex
+      flex-direction column
       margin-top -465px
       padding-top 30px
-      width 280px
+      width 85%
 
       &-title
         font-size $fs25
@@ -119,7 +128,12 @@
 
       &-title,
       &-desc
-        padding 0 35px
+        padding 0
+
+      &-title,
+      &-desc,
+      &-content
+        width 210px
 
     &-item
       &-link
