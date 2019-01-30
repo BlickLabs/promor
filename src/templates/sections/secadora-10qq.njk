@@ -1,0 +1,48 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Secadora rotativa 10 QQ{% endblock %}
+
+{% set view_name = "starProducts" %}
+
+{% block content %}
+<section class="starProds">
+  <div class="starProds-background"></div>
+  <div class="starProds-sheet">
+    <div class="starProds-sheet-content">
+      <h1 class="starProds-sheet-title bigcaslon-medium">{{es.dryer.title}}</h1>
+      <h2 class="starProds-sheet-subtitle karla-bold">{{es.dryer.subtitleOne}}</h2>
+      <p class="starProds-sheet-desc karla">{{es.dryer.descOne}}</p>
+      <h2 class="starProds-sheet-subtitle karla-bold">{{es.dryer.subtitleTwo}}</h2>
+      <p class="starProds-sheet-desc karla">{{es.dryer.descTwo}}</p>
+      <h2 class="starProds-sheet-subtitle karla-bold">{{es.dryer.subtitleThree}}</h2>
+      <p class="starProds-sheet-desc karla">{{es.dryer.descThree}}</p>
+      <h2 class="starProds-sheet-subtitle karla-bold">{{es.dryer.subtitleFive}}</h2>
+      <ul class="starProds-sheet-ul">
+        {% for list in es.dryer.list %}
+        <li class="starProds-sheet-li karla">{{list.item}}</li>
+        {% endfor %}
+      </ul>
+      <h2 class="starProds-sheet-subtitle karla-bold">{{es.dryer.subtitleSix}}</h2>
+      <div class="starProds-table-container">
+        <table class="starProds-table">
+          <tr>
+            {% for th in es.dryer.tableTH %}
+            <th class="karla-bold">{{th.content}}</th>
+            {% endfor %}
+          </tr>
+          {% for td in es.dryer.tableTD %}
+          <tr>
+            <td class="karla">{{td.contentLeft}}</td>
+            <td class="karla">{{td.contentRight}}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+    <img class="starProds-sheet-img dryerProduct" src="{{es.dryer.img}}" alt="{{es.dryer.imgAlt}}">
+    <a href="contacto.html">
+      <button class="promor-btn karla-bold">cotiza</button>
+    </a>
+  </div>
+</section>
+{% endblock %}
