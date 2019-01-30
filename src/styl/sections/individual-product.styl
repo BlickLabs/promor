@@ -25,7 +25,7 @@
 
     &:after
       background-image url("/img/star-products/despulpadora-imagen-verde.jpg")
-      background-size 100% 40vh
+      background-size cover//100% 40vh
       height 300px
   
   &-sheet
@@ -96,6 +96,13 @@
         top 6px
         width 6px
 
+    & a
+      display block
+      margin-top 40px
+
+      & button
+        color $grayT1
+
   &-table
     border-collapse collapse
     margin-top 15px
@@ -124,7 +131,7 @@
 
     & tr th,
     & tr td
-      padding-left 18px
+      padding 7px 18px
 
     & tr:nth-child(odd) td
       background-color $grayT3
@@ -169,6 +176,8 @@
       width 574px
 
       &-img
+        display block
+        margin 0 auto
         position initial
 
     &-table
