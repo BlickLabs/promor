@@ -26,7 +26,7 @@
       </div>
       <div class="home-products-carousel owl-carousel">
         {% for product in es.home.products.carousel %}
-        <a href="{{product.link}}">
+        <a href="{{product.link}}" {% if product.noHref %}onclick="{{product.noHref}}"{% endif %}>
           <div class="home-products-card {{product.card}}">
             <div class="home-products-card-hover">
               <div class="home-products-card-separator"></div>
@@ -100,3 +100,7 @@
   </section>
 </section>
 {% endblock %}
+
+<script>
+  document.getElementById("removeHref").removeAttribute("href");
+</script>
