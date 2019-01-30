@@ -72,7 +72,8 @@
           {
             "card": "coffee-toaster",
             "link": "tostador-5kg.html",
-            "title": "Tostador 5kg"
+            "title": "Tostador 5kg",
+            "noHref": "return false"
           },
           {
             "card": "coffee-grinder",
@@ -97,7 +98,8 @@
           {
             "card": "mortar",
             "link": "morteadora-de-expendio.html",
-            "title": "Morteadora de expendio"
+            "title": "Morteadora de expendio",
+            "noHref": "return false"
           }
         ],
         "btn": "cotiza"
@@ -392,6 +394,7 @@
       "descOnePartTwo": "La Centriflux es una máquina 2 en 1, para centrifugar y transportar en flujo continuo todos los tipos de cafés que se procesa en el beneficio húmedo.",
       "subtitleOne": "Gran desempeño de drenado y grandes avances en las etapas siguientes de secado:",
       "descTwoPartOne": "Es una máquina versátil de fácil instalación e integración a la estructura pre-existente, no requiere obra civil  específica.",
+      "descTwoPartTwo": "Con la Centriflux se optimiza el uso de la estructura de secado, los recursos energéticos y de mano de obra, lo que posibilita acelerar el ritmo de la cosecha, recoger los granos en su mejor fase de  maduración, posibilitando secar correctamente y mejorar su calidad final.",
       "subtitleFive": "Ventajas:",
       "list": [
         {
@@ -446,6 +449,69 @@
       ],
       "img": "/img/star-products/producto-centriflux.jpg",
       "imgAlt": "Imagen del producto Centriflux"
+    },
+    "dryer": {
+      "title": "Secadora rotativa 10 qq",
+      "subtitleOne": "Tambor rotativo:",
+      "descOne": "Su diseño nos permite un gran movimiento del grano por lo que el aire toca toda su superficie. La continua traslación del grano de un extremo a otro de la máquina nos asegura un secado homogéneo. El diseño de las puertas hace muy eficiente la carga y la descarga evitando tiempos perdidos en cosecha.",
+      "subtitleTwo": "Ventilador centrífugo:",
+      "descTwo": "Nuestro ventilador industrial genera un gran caudal de aire capaz de vencer la presión que nos genera el sistema, es decir, el recorrido desde el horno hasta pasar la masa de café. Esto nos asegura que la humedad migre desde el centro del grano hasta la superficie.",
+      "subtitleThree": "Intercambiador de calor ( horno ):",
+      "descThree": "De acuerdo de la disponibilidad y costos del combustible podemos emplear gas LP o biomasa (leña o cascabillo del café). El diseño del intercambiador nos permite el calentamiento del aire con muy baja presión haciendo un equipo altamente eficiente.",
+      "subtitleFive": "Ventajas:",
+      "list": [
+        {
+          "item": "Alta calidad de secado al emplear un gran volumen de aire a baja temperatura."
+        },
+        {
+          "item": "El diseño del contenedor nos asegura el secado homogéneo del grano gracias al eficiente  flujo de aire y el movimiento del grano."
+        },
+        {
+          "item": "Ventilador centrífugo para generar un gran volumen de aire."
+        },
+        {
+          "item": "Fácil y rápida carga y descarga de la máquina."
+        },
+        {
+          "item": "Excelente rendimiento de combustible, que puede ser: gas LP, cascarilla de café o leña."
+        },
+        {
+          "item": "Fácil transporte e instalación de la máquina gracias al chasís que integra sus componentes."
+        }
+      ],
+      "subtitleSix": "Detalles técnicos:",
+      "tableTH": [
+        {
+          "content": "descripción"
+        },
+        {
+          "content": "secadora 10 qq"
+        }
+      ],
+      "tableTD": [
+        {
+          "contentLeft": "Capacidad",
+          "contentRight": "10 qq   ( 575 kg de café pergamino seco )"
+        },
+        {
+          "contentLeft": "Volumen del tambor rotativo",
+          "contentRight": "2  m3"
+        },
+        {
+          "contentLeft": "Potencia del tambor rotativo",
+          "contentRight": "1 hp"
+        },
+        {
+          "contentLeft": "Potencia del ventilador",
+          "contentRight": "1.5 hp"
+        },
+        {
+          "contentLeft": "Voltaje / frecuencia / fases",
+          "contentRight": "100-120 V / 60 Hz / 1- 200-240 V / 60 Hz / 2-"
+        }
+      ],
+      "img": "/img/star-products/producto-secadora-10qq.jpg",
+      "imgAlt": "Imagen del producto Secadora 10QQ"
     },
     "aboutus": {
       "cover": {
